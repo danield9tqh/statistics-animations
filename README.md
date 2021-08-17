@@ -6,4 +6,7 @@ I created these animation to better understand statistical primitives (variance,
 Manim is the rendering library used to create the animations and documentation and installation instructions can be found [here](https://github.com/ManimCommunity/manim/#installation).
 
 ### Run Animation
-... will add instructions here when animations are added 
+The SingleDiceRollDistribution animation represents the probability distribution of rolling a single dice up to 10000 times. To generate and run the animation run the following:
+```
+manim -p -ql src/animations.py SingleDiceRollDistribution
+```
